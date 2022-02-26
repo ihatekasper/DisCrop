@@ -1,0 +1,2 @@
+# DisCrop
+Discord Cropper
