@@ -96921,4 +96921,36 @@ html .invoiceCancelRow-dVOR64 {
 	background-image: url(https://discord.com/assets/04457b30c1c2fcb344cb4d12913c5191.svg)
 }
 
+.menu-button
+{
+	outline: none;
+    background-color: #0005;
+    /* background-color: #191919; */
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 7px 11px;
+    cursor: pointer;
+    color: #aaa;
+	transition: 0.3s;
+}
+
+.menu-button.menu-button-upload
+{
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/svg/upload.svg);
+}
+
+.menu-button:hover
+{
+    background-color: #fff1;
+	/* background-color: #363636; */
+	color: #fff;
+}
+
 /*# sourceMappingURL=532.0f664c4fa9f722e57200.css.map*/
